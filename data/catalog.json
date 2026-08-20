@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T14:15:39.000Z",
-  "total": 2009,
+  "generatedAt": "2026-08-20T06:53:06.000Z",
+  "total": 2025,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -863,6 +863,38 @@
       "path": "skills/agent-evaluation/SKILL.md"
     },
     {
+      "id": "agent-evaluation-reporting",
+      "canonical_id": "agent-evaluation-reporting",
+      "name": "agent-evaluation-reporting",
+      "description": "Use when summarizing agent evaluations where autonomous, assisted, failed, timed-out, or invalid outcomes must remain distinct and comparable.",
+      "category": "agent-evaluation",
+      "risk": "none",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "agent-evaluation",
+        "metrics",
+        "reporting",
+        "reliability",
+        "benchmarking"
+      ],
+      "triggers": [
+        "agent-evaluation",
+        "metrics",
+        "reporting",
+        "reliability",
+        "benchmarking",
+        "agent",
+        "evaluation",
+        "summarizing",
+        "evaluations",
+        "where",
+        "autonomous",
+        "assisted"
+      ],
+      "path": "skills/agent-evaluation-reporting/SKILL.md"
+    },
+    {
       "id": "agent-framework-azure-ai-py",
       "canonical_id": "agent-framework-azure-ai-py",
       "name": "agent-framework-azure-ai-py",
@@ -891,6 +923,39 @@
         "sdk"
       ],
       "path": "skills/agent-framework-azure-ai-py/SKILL.md"
+    },
+    {
+      "id": "agent-harness-fault-injection",
+      "canonical_id": "agent-harness-fault-injection",
+      "name": "agent-harness-fault-injection",
+      "description": "Use when an agent workflow needs deterministic recovery evidence for sandbox, MCP/tool, worker, checkpoint, memory, or orchestration failures.",
+      "category": "development",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "agent-harness",
+        "fault-injection",
+        "recovery",
+        "state-machine",
+        "mcp",
+        "multi-agent"
+      ],
+      "triggers": [
+        "agent-harness",
+        "fault-injection",
+        "recovery",
+        "state-machine",
+        "mcp",
+        "multi-agent",
+        "agent",
+        "harness",
+        "fault",
+        "injection",
+        "deterministic",
+        "evidence"
+      ],
+      "path": "skills/agent-harness-fault-injection/SKILL.md"
     },
     {
       "id": "agent-manager-skill",
@@ -1093,6 +1158,111 @@
         "os"
       ],
       "path": "skills/agent-orchestrator/SKILL.md"
+    },
+    {
+      "id": "agent-qa-authoring",
+      "canonical_id": "agent-qa-authoring",
+      "name": "agent-qa-authoring",
+      "description": "Create, edit, validate, and run Agent QA tests, suites, and hooks through MCP or CLI while preserving canonical IDs and schema contracts.",
+      "category": "testing",
+      "risk": "critical",
+      "source": "https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring",
+      "source_type": "official",
+      "source_repo": "vostride/agent-qa",
+      "license": "FSL-1.1-ALv2",
+      "license_source": "https://github.com/vostride/agent-qa/blob/main/LICENSE.md",
+      "tags": [
+        "testing",
+        "qa",
+        "mcp",
+        "web-testing",
+        "mobile-testing"
+      ],
+      "triggers": [
+        "testing",
+        "qa",
+        "mcp",
+        "web-testing",
+        "mobile-testing",
+        "agent",
+        "authoring",
+        "edit",
+        "validate",
+        "run",
+        "tests",
+        "suites"
+      ],
+      "path": "skills/agent-qa-authoring/SKILL.md"
+    },
+    {
+      "id": "agent-qa-debug-fix",
+      "canonical_id": "agent-qa-debug-fix",
+      "name": "agent-qa-debug-fix",
+      "description": "Debug, patch, and verify failed Agent QA runs from MCP evidence, artifacts, logs, and local code without hiding product or infrastructure defects.",
+      "category": "testing",
+      "risk": "critical",
+      "source": "https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-debug-fix",
+      "source_type": "official",
+      "source_repo": "vostride/agent-qa",
+      "license": "FSL-1.1-ALv2",
+      "license_source": "https://github.com/vostride/agent-qa/blob/main/LICENSE.md",
+      "tags": [
+        "testing",
+        "qa",
+        "debugging",
+        "mcp",
+        "self-healing"
+      ],
+      "triggers": [
+        "testing",
+        "qa",
+        "debugging",
+        "mcp",
+        "self-healing",
+        "agent",
+        "debug",
+        "fix",
+        "patch",
+        "verify",
+        "failed",
+        "runs"
+      ],
+      "path": "skills/agent-qa-debug-fix/SKILL.md"
+    },
+    {
+      "id": "agent-qa-result-triage",
+      "canonical_id": "agent-qa-result-triage",
+      "name": "agent-qa-result-triage",
+      "description": "Triage failed Agent QA runs with MCP evidence, artifacts, logs, fixed failure categories, confidence, and actionable next steps.",
+      "category": "testing",
+      "risk": "safe",
+      "source": "https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-result-triage",
+      "source_type": "official",
+      "source_repo": "vostride/agent-qa",
+      "license": "FSL-1.1-ALv2",
+      "license_source": "https://github.com/vostride/agent-qa/blob/main/LICENSE.md",
+      "tags": [
+        "testing",
+        "qa",
+        "triage",
+        "mcp",
+        "debugging"
+      ],
+      "triggers": [
+        "testing",
+        "qa",
+        "triage",
+        "mcp",
+        "debugging",
+        "agent",
+        "result",
+        "failed",
+        "runs",
+        "evidence",
+        "artifacts",
+        "logs"
+      ],
+      "path": "skills/agent-qa-result-triage/SKILL.md"
     },
     {
       "id": "agent-self-scheduling",
@@ -2888,6 +3058,41 @@
         "skill"
       ],
       "path": "skills/anti-sycophancy/SKILL.md"
+    },
+    {
+      "id": "anti-ui-slop",
+      "canonical_id": "anti-ui-slop",
+      "name": "anti-ui-slop",
+      "description": "Stop coding agents from shipping generic UI with UIZZE's 800,000+ real web and iOS screens, product-specific contracts, required states, and a hard finish gate.",
+      "category": "frontend",
+      "risk": "safe",
+      "source": "https://github.com/uizze/uizze/tree/main/skills/anti-ui-slop",
+      "source_type": "official",
+      "source_repo": "uizze/uizze",
+      "license": "MIT",
+      "license_source": "https://github.com/uizze/uizze/blob/main/LICENSE",
+      "tags": [
+        "ui",
+        "ux",
+        "frontend",
+        "design",
+        "anti-ui-slop"
+      ],
+      "triggers": [
+        "ui",
+        "ux",
+        "frontend",
+        "design",
+        "anti-ui-slop",
+        "anti",
+        "slop",
+        "stop",
+        "coding",
+        "agents",
+        "shipping",
+        "generic"
+      ],
+      "path": "skills/anti-ui-slop/SKILL.md"
     },
     {
       "id": "antigravity-agent-manager",
@@ -4791,6 +4996,36 @@
         "intelligent"
       ],
       "path": "skills/audio-transcriber/SKILL.md"
+    },
+    {
+      "id": "audit-agent-run-evidence",
+      "canonical_id": "audit-agent-run-evidence",
+      "name": "audit-agent-run-evidence",
+      "description": "Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.",
+      "category": "uncategorized",
+      "risk": "safe",
+      "source": "self",
+      "tags": [
+        "audit",
+        "agent",
+        "run",
+        "evidence"
+      ],
+      "triggers": [
+        "audit",
+        "agent",
+        "run",
+        "evidence",
+        "harness",
+        "gateway",
+        "mcp",
+        "multi",
+        "step",
+        "automation",
+        "claims",
+        "completion"
+      ],
+      "path": "skills/audit-agent-run-evidence/SKILL.md"
     },
     {
       "id": "audit-context-building",
@@ -9950,6 +10185,42 @@
       "path": "skills/blueprint/SKILL.md"
     },
     {
+      "id": "boost-asio-pro",
+      "canonical_id": "boost-asio-pro",
+      "name": "boost-asio-pro",
+      "description": "Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback styles.",
+      "category": "development",
+      "risk": "safe",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "alexprivalov/boost-asio-skill",
+      "license": "MIT",
+      "license_source": "https://github.com/alexprivalov/boost-asio-skill/blob/main/LICENSE",
+      "tags": [
+        "cpp",
+        "boost",
+        "asio",
+        "async",
+        "networking",
+        "coroutines"
+      ],
+      "triggers": [
+        "cpp",
+        "boost",
+        "asio",
+        "async",
+        "networking",
+        "coroutines",
+        "pro",
+        "writing",
+        "asynchronous",
+        "code",
+        "standalone",
+        "tcp"
+      ],
+      "path": "skills/boost-asio-pro/SKILL.md"
+    },
+    {
       "id": "box-automation",
       "canonical_id": "box-automation",
       "name": "box-automation",
@@ -13554,7 +13825,7 @@
       "id": "cohesivity",
       "canonical_id": "cohesivity",
       "name": "cohesivity",
-      "description": "Provision backend infra through Cohesivity (cohesivity.ai): Postgres, hosting, auth, storage, and AI model APIs over one HTTP API. Use when a .cohesivity file exists or a project needs a backend.",
+      "description": "Provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend.",
       "category": "backend",
       "risk": "critical",
       "source": "https://github.com/cohesivity-org/cohesivity-skill",
@@ -13577,11 +13848,11 @@
         "auth",
         "cohesivity",
         "provision",
-        "infra",
-        "through",
+        "headless",
         "ai",
-        "postgres",
-        "storage"
+        "agents",
+        "through",
+        "databases"
       ],
       "path": "skills/cohesivity/SKILL.md"
     },
@@ -13890,6 +14161,41 @@
         "sentiment"
       ],
       "path": "skills/competitor-tracking/SKILL.md"
+    },
+    {
+      "id": "compile-knowledge",
+      "canonical_id": "compile-knowledge",
+      "name": "compile-knowledge",
+      "description": "Compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts.",
+      "category": "productivity",
+      "risk": "safe",
+      "source": "https://github.com/5dive-ai/skills/tree/main/compile-knowledge",
+      "source_type": "community",
+      "source_repo": "5dive-ai/skills",
+      "license": "MIT",
+      "license_source": "https://github.com/5dive-ai/skills/blob/main/LICENSE",
+      "tags": [
+        "knowledge-management",
+        "memory",
+        "documentation",
+        "wiki",
+        "notes"
+      ],
+      "triggers": [
+        "knowledge-management",
+        "memory",
+        "documentation",
+        "wiki",
+        "notes",
+        "compile",
+        "knowledge",
+        "durable",
+        "non",
+        "obvious",
+        "findings",
+        "interlinked"
+      ],
+      "path": "skills/compile-knowledge/SKILL.md"
     },
     {
       "id": "complexity-cuts",
@@ -15329,6 +15635,38 @@
         "before"
       ],
       "path": "skills/cron-doctor/SKILL.md"
+    },
+    {
+      "id": "cross-platform-contract-propagation-audit",
+      "canonical_id": "cross-platform-contract-propagation-audit",
+      "name": "cross-platform-contract-propagation-audit",
+      "description": "Use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.",
+      "category": "development",
+      "risk": "safe",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "contract-audit",
+        "cross-platform",
+        "api",
+        "schema",
+        "feature-flags"
+      ],
+      "triggers": [
+        "contract-audit",
+        "cross-platform",
+        "api",
+        "schema",
+        "feature-flags",
+        "cross",
+        "platform",
+        "contract",
+        "propagation",
+        "audit",
+        "auditing",
+        "whether"
+      ],
+      "path": "skills/cross-platform-contract-propagation-audit/SKILL.md"
     },
     {
       "id": "crossframe",
@@ -20603,6 +20941,41 @@
         "rube"
       ],
       "path": "skills/dropbox-automation/SKILL.md"
+    },
+    {
+      "id": "dsh-deepread",
+      "canonical_id": "dsh-deepread",
+      "name": "dsh-deepread",
+      "description": "Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks.",
+      "category": "research",
+      "risk": "safe",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "xiehuan123/dsh-deepread",
+      "license": "MIT",
+      "license_source": "https://github.com/xiehuan123/dsh-deepread/blob/main/LICENSE",
+      "tags": [
+        "deep-reading",
+        "evidence",
+        "knowledge-map",
+        "feynman",
+        "document-analysis"
+      ],
+      "triggers": [
+        "deep-reading",
+        "evidence",
+        "knowledge-map",
+        "feynman",
+        "document-analysis",
+        "dsh",
+        "deepread",
+        "first",
+        "reading",
+        "articles",
+        "books",
+        "pdfs"
+      ],
+      "path": "skills/dsh-deepread/SKILL.md"
     },
     {
       "id": "dwarf-expert",
@@ -32016,6 +32389,38 @@
       "path": "skills/linux-troubleshooting/SKILL.md"
     },
     {
+      "id": "liuguang-banlan-ui",
+      "canonical_id": "liuguang-banlan-ui",
+      "name": "liuguang-banlan-ui",
+      "description": "Builds two parameterized UI modes—流光溢彩白 (iridescent white) and 五彩斑斓黑 (colorful black)—with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and total/per-color intensity reports. Use when a UI request names either mode or needs measured color parameters.",
+      "category": "creative",
+      "risk": "critical",
+      "source": "self",
+      "source_type": "self",
+      "tags": [
+        "ui",
+        "frontend",
+        "oklch",
+        "webgl",
+        "accessibility"
+      ],
+      "triggers": [
+        "ui",
+        "frontend",
+        "oklch",
+        "webgl",
+        "accessibility",
+        "liuguang",
+        "banlan",
+        "two",
+        "parameterized",
+        "modes",
+        "iridescent",
+        "white"
+      ],
+      "path": "skills/liuguang-banlan-ui/SKILL.md"
+    },
+    {
       "id": "llm-app-patterns",
       "canonical_id": "llm-app-patterns",
       "name": "llm-app-patterns",
@@ -36314,6 +36719,41 @@
         "api"
       ],
       "path": "skills/multi-platform-apps-multi-platform/SKILL.md"
+    },
+    {
+      "id": "multi-source-search",
+      "canonical_id": "multi-source-search",
+      "name": "multi-source-search",
+      "description": "Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.",
+      "category": "research",
+      "risk": "safe",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "sandbaseai/sandbase-skills",
+      "license": "Apache-2.0",
+      "license_source": "https://github.com/sandbaseai/sandbase-skills/blob/fc25b2ed4548b1bb91621661e82d07d4bbd285a1/LICENSE",
+      "tags": [
+        "research",
+        "fact-checking",
+        "citations",
+        "evidence",
+        "verification"
+      ],
+      "triggers": [
+        "research",
+        "fact-checking",
+        "citations",
+        "evidence",
+        "verification",
+        "multi",
+        "source",
+        "search",
+        "cross",
+        "validate",
+        "web",
+        "produce"
+      ],
+      "path": "skills/multi-source-search/SKILL.md"
     },
     {
       "id": "n8n-agents",
@@ -44162,6 +44602,34 @@
       "path": "skills/review-animations/SKILL.md"
     },
     {
+      "id": "review-multi-agent-orchestration",
+      "canonical_id": "review-multi-agent-orchestration",
+      "name": "review-multi-agent-orchestration",
+      "description": "Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before implementation or production rollout.",
+      "category": "uncategorized",
+      "risk": "safe",
+      "source": "self",
+      "tags": [
+        "multi",
+        "agent"
+      ],
+      "triggers": [
+        "multi",
+        "agent",
+        "review",
+        "orchestration",
+        "supervisor",
+        "swarm",
+        "graph",
+        "planner",
+        "worker",
+        "parallel",
+        "task",
+        "boundaries"
+      ],
+      "path": "skills/review-multi-agent-orchestration/SKILL.md"
+    },
+    {
       "id": "review-swarm",
       "canonical_id": "review-swarm",
       "name": "review-swarm",
@@ -44255,7 +44723,7 @@
       "id": "riffkit",
       "canonical_id": "riffkit",
       "name": "riffkit",
-      "description": "Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (EN/ES). Also makes UGC ad creative.",
+      "description": "Riff a winning TikTok into your own short video — study a proven video's emotion formula and regenerate it with your product, character, and language (9 supported). Also makes UGC ad creative.",
       "category": "api-integration",
       "risk": "critical",
       "source": "community",
@@ -53842,6 +54310,41 @@
       "path": "skills/ui-skills-root/SKILL.md"
     },
     {
+      "id": "ui-slop-score",
+      "canonical_id": "ui-slop-score",
+      "name": "ui-slop-score",
+      "description": "Score a rendered web or iOS screen for generic UI risk before it ships. Use when a user asks whether a UI looks generic or needs an honest pre-merge visual review.",
+      "category": "frontend",
+      "risk": "safe",
+      "source": "https://github.com/uizze/uizze/tree/main/skills/ui-slop-score",
+      "source_type": "official",
+      "source_repo": "uizze/uizze",
+      "license": "MIT",
+      "license_source": "https://github.com/uizze/uizze/blob/main/LICENSE",
+      "tags": [
+        "ui",
+        "ux",
+        "frontend",
+        "design",
+        "ui-slop-score"
+      ],
+      "triggers": [
+        "ui",
+        "ux",
+        "frontend",
+        "design",
+        "ui-slop-score",
+        "slop",
+        "score",
+        "rendered",
+        "web",
+        "ios",
+        "screen",
+        "generic"
+      ],
+      "path": "skills/ui-slop-score/SKILL.md"
+    },
+    {
       "id": "ui-tokens",
       "canonical_id": "ui-tokens",
       "name": "ui-tokens",
@@ -54692,6 +55195,41 @@
         "branches"
       ],
       "path": "skills/using-git-worktrees/SKILL.md"
+    },
+    {
+      "id": "using-lwc",
+      "canonical_id": "using-lwc",
+      "name": "using-lwc",
+      "description": "Use when project decisions, code structure, research, incidents, or verified context must survive future coding-agent sessions through LWC memory and graph indexes.",
+      "category": "development",
+      "risk": "critical",
+      "source": "community",
+      "source_type": "community",
+      "source_repo": "JanYork/using-lwc",
+      "license": "Apache-2.0",
+      "license_source": "https://github.com/JanYork/using-lwc/blob/7bd8052e6fa012786e50eee09f46df06b0cda1b8/LICENSE",
+      "tags": [
+        "memory",
+        "knowledge-graph",
+        "code-intelligence",
+        "wiki",
+        "context-engineering"
+      ],
+      "triggers": [
+        "memory",
+        "knowledge-graph",
+        "code-intelligence",
+        "wiki",
+        "context-engineering",
+        "lwc",
+        "decisions",
+        "code",
+        "structure",
+        "research",
+        "incidents",
+        "verified"
+      ],
+      "path": "skills/using-lwc/SKILL.md"
     },
     {
       "id": "using-n8n-mcp-skills",

@@ -564,8 +564,46 @@
       "runtime_files": []
     },
     {
+      "id": "agent-evaluation-reporting",
+      "path": "skills/agent-evaluation-reporting",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "agent-framework-azure-ai-py",
       "path": "skills/agent-framework-azure-ai-py",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "agent-harness-fault-injection",
+      "path": "skills/agent-harness-fault-injection",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -699,6 +737,63 @@
     {
       "id": "agent-orchestrator",
       "path": "skills/agent-orchestrator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "agent-qa-authoring",
+      "path": "skills/agent-qa-authoring",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "agent-qa-debug-fix",
+      "path": "skills/agent-qa-debug-fix",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "agent-qa-result-triage",
+      "path": "skills/agent-qa-result-triage",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -1920,6 +2015,25 @@
     {
       "id": "anti-sycophancy",
       "path": "skills/anti-sycophancy",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "anti-ui-slop",
+      "path": "skills/anti-ui-slop",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -3173,6 +3287,25 @@
     {
       "id": "audio-transcriber",
       "path": "skills/audio-transcriber",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "audit-agent-run-evidence",
+      "path": "skills/audit-agent-run-evidence",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -6596,6 +6729,25 @@
       "runtime_files": []
     },
     {
+      "id": "boost-asio-pro",
+      "path": "skills/boost-asio-pro",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "box-automation",
       "path": "skills/box-automation",
       "targets": {
@@ -9199,6 +9351,25 @@
       "runtime_files": []
     },
     {
+      "id": "compile-knowledge",
+      "path": "skills/compile-knowledge",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "complexity-cuts",
       "path": "skills/complexity-cuts",
       "targets": {
@@ -10199,6 +10370,25 @@
     {
       "id": "cron-doctor",
       "path": "skills/cron-doctor",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "cross-platform-contract-propagation-audit",
+      "path": "skills/cross-platform-contract-propagation-audit",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -13682,6 +13872,25 @@
     {
       "id": "dropbox-automation",
       "path": "skills/dropbox-automation",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "dsh-deepread",
+      "path": "skills/dsh-deepread",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -21239,6 +21448,25 @@
       "runtime_files": []
     },
     {
+      "id": "liuguang-banlan-ui",
+      "path": "skills/liuguang-banlan-ui",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "llm-app-patterns",
       "path": "skills/llm-app-patterns",
       "targets": {
@@ -24002,6 +24230,25 @@
     {
       "id": "multi-platform-apps-multi-platform",
       "path": "skills/multi-platform-apps-multi-platform",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "multi-source-search",
+      "path": "skills/multi-source-search",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -29172,6 +29419,25 @@
     {
       "id": "review-animations",
       "path": "skills/review-animations",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "review-multi-agent-orchestration",
+      "path": "skills/review-multi-agent-orchestration",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -35730,6 +35996,25 @@
       "runtime_files": []
     },
     {
+      "id": "ui-slop-score",
+      "path": "skills/ui-slop-score",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "ui-tokens",
       "path": "skills/ui-tokens",
       "targets": {
@@ -36270,6 +36555,25 @@
         "claude": [
           "absolute_host_path"
         ]
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "using-lwc",
+      "path": "skills/using-lwc",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
       },
       "runtime_files": []
     },
@@ -38622,10 +38926,10 @@
     }
   ],
   "summary": {
-    "total_skills": 2009,
+    "total_skills": 2025,
     "supported": {
-      "codex": 1931,
-      "claude": 1952
+      "codex": 1947,
+      "claude": 1968
     },
     "blocked": {
       "codex": 78,
